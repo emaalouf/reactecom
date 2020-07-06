@@ -1,0 +1,26 @@
+.content {
+  background-color: #FFFFFF;
+}
+
+.first-header {
+  background: url('https://i.ibb.co/f2N4MLf/Fashion1.jpg');
+}
+
+.second-header {
+  background: url('https://i.ibb.co/s2WY0cw/Fashion2.jpg');
+}
+
+.third-header {
+  background: url('https://i.ibb.co/8B0pLSn/Fashion3.jpg');
+}
+
+.fourth-header {
+  background: url('https://i.ibb.co/r6vnhf9/Fashion4.jpg');
+}
+
+.first-header, .second-header, .third-header, .fourth-header {
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+  background-position: center;
+}
